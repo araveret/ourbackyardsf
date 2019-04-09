@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42013042-2"></script> 
+  <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-42013042-2'); </script>
 <!-- Required meta tags -->
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
@@ -12,7 +14,6 @@
       html {
       scroll-behavior: smooth;
       }
-
       .container-fluid {
         height: 100vh;
       }
@@ -24,11 +25,12 @@
        background-image: url('images/skyline.jpg');
        background-size: cover;
       }
+
       .jumbotron-safer{
        background-image: url('images/skyline2.jpg');
        background-size: cover;
       }
-
+    
       .circle {
       width: 50px;
       height: 50px;
@@ -59,22 +61,34 @@
       font-family: 'Palanquin', sans-serif;
       text-align: center;
       font-weight: bolder;
-      color: gray;
+      color:white; 
+      background-color: #ffaf00;
+    }
+
+    .btn > a{
+      color: white; 
+    }
+    
+    p > a{
+     color: white
     }
 
     #landing-page-1{
-      background-image: url('https://www.desktop-background.com/p/2013/03/27/551453_black-and-white-san-francisco-skyline-wallpapers-republicans_1600x1200_h.png');
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1e/A_blank_black_picture.jpg');
       background-size: cover;
+      height: 100vh;
     }
 
     #landing-page-2{
       background-image: url('https://www.solidbackgrounds.com/images/1024x768/1024x768-gray-solid-color-background.jpg');
       background-size: cover;
+      height: 100vh;
     }    
 
     #landing-page-3{
-      background-image: url('https://disside.com/wp-content/uploads/2017/04/placeholder-big-dark-2.gif');
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1e/A_blank_black_picture.jpg');
       background-size: cover;
+      height: 100vh;
     }
 
     .landing-page-text{
@@ -124,15 +138,14 @@
         <div class="scroll"> READ MORE </div></a></div>
   </section>
  
-
   <section id="landing-page-2">
     <div class="row">
-      <div class="col-6">
+      <div class="col-lg-6 col-sm-12">
           <div class="landing-page-text">
           Nearly 90% of homeless housing is concentrated in 15% of the neighborhoods in San Francisco.
           </div>
         </div>
-      <div class="col-6">
+      <div class="col-lg-6 col-sm-12">
           <div class="landing-page-text">
            ** map goes here **  
           </div>
@@ -158,89 +171,89 @@
   </section>
   
 <section id="campaigns">
-<div class="container-fluid" style="position: absolute;">
-<div class="row h-100">
-<div class="col jumbotron-safe textstyle">
-<div class="row" style="margin-top: 15%">
-<div class="col">
-<h1>SAFE</h1>
+  <div class="container-fluid" style="position: absolute;">
+    <div class="row h-100">
+      <div class="col jumbotron-safe textstyle">
+        <div class="row" style="margin-top: 15%">
+          <div class="col">
+            <h1>SAFE</h1>
+          </div>
+        </div>
+  <div class="row pad-top">
+   <div class="col">
+      <p>Here we have some text about the SAFE campaign</p>
+    </div>
+  </div>
+  <div class="row pad-top">
+    <div class="col">
+      <button class="btn btn-light textstyle-btn" type="button"><a href= "https://www.gofundme.com/f/safe-embarcadero-for-all./" target="_blank">OPPOSE NOW</a></button>
+    </div>
+  </div>
+  <div class="row pad-top">
+    <div class="col gofundmelink">
+      <p> <a href="https://www.zfplaw.com/About/Andrew-M-Zacks.shtml"> Beneficiary: Andrew Zacks Law Firm </a></p>
+    </div>
+  </div>
+  <div class="row pad-top">
+    <div class="col">
+      <div class="row"> <p class="w-100">Raised</p> </div>
+      <div class="row"> <h3 class="w-100" id="safe-raised">$98,120</h3> </div>
+      </div>
+    </div>
+  <div class="row pad-top">
+    <div class="col">
+      <div class="row"> <p class="w-100">Donors</p> </div>
+      <div class="row"> <h3 class="w-100" id="safe-donors">349</h3> </div>
+    </div>
+  <div class="col">
+    <div class="row"> <p class="w-100">Median Donation</p> </div>
+    <div class="row"> <h3 class="w-100" id="safe-median">$100</h3> </div>
+  </div>
+   <div class="col">
+    <div class="row"> <p class="w-100">Under $100</p> </div>
+    <div class="row"> <h3 class="w-100" id="safe-under">36%</h3> </div>
+    </div>
+  </div>
 </div>
+  <div class="col jumbotron-safer textstyle">
+    <div class="row" style="margin-top: 15%">
+      <div class="col">
+      <h1>SAFER</h1>
+      </div>
+    </div>
+<div class="row pad-top">
+  <div class="col">
+    <p>Here we have some text about the SAFER campaign</p>
+  </div>
+</div>
+<div class="row pad-top">
+  <div class="col">
+    <button class="btn btn-light textstyle-btn" type="button"><a href= "https://www.gofundme.com/safer-embarcadero-for-all" target="_blank">SUPPORT NOW</a></button>
+  </div>
+</div>
+<div class="row pad-top">
+  <div class="col gofundmelink">
+    <p> <a href="http://www.cohsf.org/"> Beneficiary: Coalition on Homlessness </a></p>
+  </div>
+</div>
+<div class="row pad-top">
+  <div class="col">
+    <div class="row"> <p class="w-100">Raised</p> </div>
+    <div class="row"> <h3 class="w-100" id="safer-raised">$171,867</h3> </div>
+  </div>
 </div>
 <div class="row pad-top">
 <div class="col">
-<p>Here we have some text about the SAFE campaign</p>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<button class="btn btn-light textstyle-btn" type="button">Donate Now</button>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<p>Against: Here goes the argument for AGAINST</p>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<div class="row"> <p class="w-100">Raised</p> </div>
-<div class="row"> <h3 class="w-100" id="safe-raised">$98,120</h3> </div>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<div class="row"> <p class="w-100">Donors</p> </div>
-<div class="row"> <h3 class="w-100" id="safe-donors">349</h3> </div>
+  <div class="row"> <p class="w-100">Donors</p> </div>
+  <div class="row"> <h3 class="w-100" id="safer-donors">1,874</h3> </div>
 </div>
 <div class="col">
-<div class="row"> <p class="w-100">Median Donation</p> </div>
-<div class="row"> <h3 class="w-100" id="safe-median">$100</h3> </div>
+  <div class="row"> <p class="w-100">Median Donation</p> </div>
+  <div class="row"> <h3 class="w-100" id="safer-median">$10</h3> </div>
 </div>
 <div class="col">
-<div class="row"> <p class="w-100">Under $100</p> </div>
-<div class="row"> <h3 class="w-100" id="safe-under">36%</h3> </div>
-</div>
-</div>
-</div>
-<div class="col jumbotron-safer textstyle">
-<div class="row" style="margin-top: 15%">
-<div class="col">
-<h1>SAFER</h1>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<p>Here we have some text about the SAFER campaign</p>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<button class="btn btn-light textstyle-btn" type="button">Donate Now</button>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<p>For: Here goes the argument for FOR</p>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<div class="row"> <p class="w-100">Raised</p> </div>
-<div class="row"> <h3 class="w-100" id="safer-raised">$171,867</h3> </div>
-</div>
-</div>
-<div class="row pad-top">
-<div class="col">
-<div class="row"> <p class="w-100">Donors</p> </div>
-<div class="row"> <h3 class="w-100" id="safer-donors">1,874</h3> </div>
-</div>
-<div class="col">
-<div class="row"> <p class="w-100">Median Donation</p> </div>
-<div class="row"> <h3 class="w-100" id="safer-median">$10</h3> </div>
-</div>
-<div class="col">
-<div class="row"> <p class="w-100">Under $100</p> </div>
-<div class="row"> <h3 class="w-100" id="safer-under">84%</h3> </div>
+  <div class="row"> <p class="w-100">Under $100</p> </div>
+  <div class="row"> <h3 class="w-100" id="safer-under">84%</h3> </div>
 </div>
 </div>
 </div>
