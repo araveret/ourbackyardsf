@@ -108,6 +108,13 @@
       display:block;
     }
 
+    .copy{
+      text-align: left;
+      padding: 6%;
+      font-size: 1.3em;
+    }
+
+
     .scroller{
       align-items: center;
       display: flex; 
@@ -136,6 +143,15 @@
       height: 67%;
       padding: 5%;
     }
+
+    #footer{   
+      color:white; 
+      background-color: black; 
+    }
+
+    .references{
+      padding: 4%; 
+    }
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     } 
 
@@ -147,7 +163,7 @@
 
   <section id="landing-page-1">
     <div class="landing-page-text">
-        San Francisco has among the highest rate of homelessness in the United States, with 4300 people living unsheltered and 1100 people on the shelter waiting list. 
+        San Francisco has among the highest rate of homelessness in the United States<sup> <a href="https://www.hudexchange.info/resources/documents/2017-AHAR-Part-1.pdf">1</a></sup> , with 4300 people living unsheltered and 1100 people on the shelter waiting list. <sup> <a href="http://hsh.sfgov.org/safe-navigation-centers">2</a></sup> 
     </div>
       <a href="#landing-page-2"> <div class="scroller"><span class="glyphicon glyphicon-circle-arrow-down"></span>
         <div class="scroll"> READ MORE </div></a></div>
@@ -157,7 +173,7 @@
     <div class="row">
       <div class="col-lg-6 col-sm-12">
           <div class="landing-page-text">
-          Nearly 90% of homeless housing is concentrated in 15% of the neighborhoods in San Francisco.
+          Nearly 90% of homeless housing is concentrated in 15% of the neighborhoods in San Francisco. <sup> <a href="http://sfpublicpress.org/files/homeless-map.jpg">3</a></sup>
           </div>
         </div>
       <div class="col-lg-6 col-sm-12">
@@ -195,8 +211,11 @@
           </div>
         </div>
   <div class="row pad-top">
-   <div class="col">
-      <p>Here we have some text about the SAFE campaign</p>
+   <div class="col copy">
+     <p> Opposition to the proposed navigation center: </p>
+      <li> “Mayor (London Breed) has put expediency over safety in choosing this location for the city’s largest-ever (homeless) navigation center </li>
+      <li> “I am a homeowner in this area, and this will definitely have a negative impact on my property value”         </li>
+      <li> Funds for this campaign will be used exclusively for legal and related costs to oppose the proposed Navigation Center at Seawall Lot 330 to support Andrew Zacks law firm’s work to stop the navigation center from happening.</li>
     </div>
   </div>
   <div class="row pad-top">
@@ -237,9 +256,12 @@
       </div>
     </div>
 <div class="row pad-top">
-  <div class="col">
-    <p>Here we have some text about the SAFER campaign</p>
-  </div>
+  <div class="col copy">
+      <p> Support for the proposed navigation center: </p>
+      <li> “I care about homeless people.” </li>
+      <li> “I am a homeowner in this area, and this will definitely have a negative impact on my property value”         </li>
+      <li> The funds will be used exclusively to support the amazing work of the Coalition on Homelessness to support our unhoused neighbors.</li>
+    </div> 
 </div>
 <div class="row pad-top">
   <div class="col">
@@ -273,9 +295,11 @@
 </div>
 </div>
 </div>
-</section>
 </div>
+</section>
+
 <!-- <div class="circle" style="position: absolute;">VS</div> -->
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
